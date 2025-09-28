@@ -5,7 +5,7 @@ import datetime
 
 # --- 1. Configurações do MongoDB (AS SUAS CONFIGURAÇÕES CORRETAS) ---
 # Seus dados de conexão
-MONGO_URI = "mongodb+srv://isaiasoliveira_db_user:Y8mmelSNCRqrhBtl@clusterisaias.y6ccr4r.mongodb.net/aulasADS?retryWrites=true&w=majority&appName=ClusterIsaias"
+MONGO_URI = "  pegar dados no site mongo referente a user e banco de dados "
 DATABASE_NAME = "aulasADS"
 COLLECTION_NAME = "alunos"
 
@@ -70,4 +70,5 @@ def submit_aluno():
 # --- 5. Execução do Servidor ---
 if __name__ == '__main__':
     # Roda o servidor Flask. debug=True reinicia automaticamente ao salvar.
+
     app.run(debug=True)
