@@ -5,7 +5,7 @@ from pymongo.errors import ConnectionFailure, OperationFailure
 # PROFESSOR, SUBSTITUA ESTA STRING COM A QUE VOCÊ COPICOU DO ATLAS!
 # Não se esqueça de substituir <username> e <password> pelos seus reais!
 # USE ESTA STRING CORRIGIDA:
-MONGO_URI = "mongodb+srv://isaiasoliveira_db_user:Y8mmelSNCRqrhBtl@clusterisaias.y6ccr4r.mongodb.net/aulasADS?retryWrites=true&w=majority&appName=ClusterIsaias"
+MONGO_URI = "pegar no site mongo "
 
 # --- 2. Nome do Database e da Collection que você criou ---
 DATABASE_NAME = "aulasADS"
@@ -101,4 +101,5 @@ def inserir_documentos_alunos():
             client.close()
 
 if __name__ == "__main__":
+
     inserir_documentos_alunos()
